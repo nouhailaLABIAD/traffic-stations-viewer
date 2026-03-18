@@ -1,0 +1,28 @@
+<div class="kpi-bar">
+  <div class="kpi">
+    <div class="kpi-label">Stations</div>
+    <div class="kpi-val">{{count}}</div>
+  </div>
+  <div class="kpi yellow">
+    <div class="kpi-label">Colonnes</div>
+    <div class="kpi-val">{{keysLength}}</div>
+  </div>
+  <div class="kpi {{importedClass}}">
+    <div class="kpi-label">Statut</div>
+    <div class="kpi-val" style="font-size:1rem;margin-top:8px">{{importedText}}</div>
+  </div>
+  <div class="kpi">
+    <div class="kpi-label">Base</div>
+    <div class="kpi-val" style="font-size:1rem;margin-top:8px">stations</div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="section-title">Actions rapides</div>
+  <div class="actions">
+    <a href="/import" class="btn btn-primary">Importer les stations</a>
+    <a href="/map" class="btn btn-danger">Voir la carte</a>
+  </div>
+</div>
+
+{{content}}

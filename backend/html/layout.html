@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>{{title}}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Syne:wght@400;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="/style.css">
+  <!-- Leaflet pour la carte -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+<body>
+<header>
+  <div class="logo">PEMS<span>D7</span></div>
+  <div class="badge">STATIONS</div>
+  <nav>
+    <a href="/" {{homeActive}}>HOME</a>
+    <a href="/import" {{importActive}}>IMPORT</a>
+    <a href="/map" {{mapActive}}>CARTE</a>
+  </nav>
+</header>
+<main>
+  {{body}}
+</main>
+<footer>PeMS-D7 · Stations de comptage · 2025</footer>
+</body>
+</html>
