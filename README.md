@@ -41,5 +41,5 @@ DevOps	Docker, Docker Compose
 
 
 Commands :
-docker compose down
+docker compose down &
 docker-compose up --build
