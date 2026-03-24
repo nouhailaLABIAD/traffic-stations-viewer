@@ -37,3 +37,9 @@ DevOps	Docker, Docker Compose
 ├── dataset/                  # place PeMSD7_M_Station_Info.csv here
 ├── docker-compose.yml        # orchestrates web + mongodb services
 └── README.md                 # you are here
+
+
+
+Commands :
+docker compose down
+docker-compose up --build
